@@ -60,8 +60,7 @@ function SelecionarProduto(opcao, tempo) {
 
         if (tempo < tempoProduto) {
             console.log('Tempo Insuficiente');
-            msgExtra = "Pena que deve está frio ;-;";
-        }
+                }
         //Ao colocar 3x maior que o necessário o Microondas queima.
         if (tempo >= (tempoProduto * 3)) {
             console.log('KABUM');
